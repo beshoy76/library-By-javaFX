@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="intro" prefHeight="562.0" prefWidth="678.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Intro">
+   <children>
+      <ImageView fitHeight="562.0" fitWidth="679.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/dark-2024127_1280.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="562.0" prefWidth="680.0" style="-fx-background-color: #000; -fx-opacity: .5;" />
+      <Text fill="WHITE" layoutX="322.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="،،" wrappingWidth="34.06640625">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="164.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For some of us, books are as important as almost anything else on earth. What a miracle it is that out of these small, flat, rigid squares of paper unfolds world after world after world, worlds that sing to you, comfort and quiet or excite you. Books help us understand who we are and how we are to behave. They show us what community and friendship mean; they show us how to live and die." wrappingWidth="383.6953125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="579.0" layoutY="510.0" mnemonicParsing="false" onAction="#skip" prefHeight="38.0" prefWidth="85.0" style="-fx-background-color: transparent;" text="Skip" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

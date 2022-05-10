@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="book" prefHeight="562.0" prefWidth="678.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FantasyCategory">
+   <children>
+      <ImageView fx:id="img" fitHeight="360.0" fitWidth="282.0" layoutX="37.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/268a5a55fc90fb09367310c0945c977c(2).jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="txt4" fill="WHITE" layoutX="345.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Originally published: 2011" wrappingWidth="261.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt1" fill="WHITE" layoutX="321.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Life is What You Make it: A Story of Love, Hope and How Determination Can Overcome Even Destiny" wrappingWidth="322.263671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt3" fill="WHITE" layoutX="78.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author: Peter Buffett" wrappingWidth="261.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt2" fill="WHITE" layoutX="321.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Life Is What You The book was in &quot;Top books of 2011&quot; as per the Nielsen list which is published in Hindustan Times. It was also on Times of India all-time best sellers of 2011. This is an astonishing love story set in India in 1990s." wrappingWidth="322.263671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="start" layoutX="254.0" layoutY="496.0" mnemonicParsing="false" onAction="#start" prefHeight="35.0" prefWidth="171.0" style="-fx-background-color: #d67e26;" text="Start Reading">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="42.0" fitWidth="53.0" layoutX="14.0" layoutY="506.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

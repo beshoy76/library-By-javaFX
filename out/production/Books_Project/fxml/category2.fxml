@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="category2" prefHeight="562.0" prefWidth="678.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Category2">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="562.0" prefWidth="684.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="559.0" prefWidth="693.0" style="-fx-background-color: #000;">
+               <children>
+                  <Button layoutX="561.0" layoutY="14.0" mnemonicParsing="false" onAction="#signout" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #d67e26;" text="Sign Out">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Pane layoutX="14.0" layoutY="70.0" prefHeight="435.0" prefWidth="636.0">
+                     <children>
+                        <ImageView fx:id="img5" fitHeight="200.0" fitWidth="150.0" layoutX="41.0" layoutY="221.0" onMouseClicked="#click5" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/a55787b4abfbc3ce9d70e5af4ee6937c15e728e6__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img4" fitHeight="200.0" fitWidth="150.0" layoutX="468.0" onMouseClicked="#click4" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/6e04107cbc4aa8ba9f562b275183c5b47aca7f3a__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img7" fitHeight="200.0" fitWidth="150.0" layoutX="327.0" layoutY="221.0" onMouseClicked="#click7" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/3b95fc0465aca937701b775cd869f344389a2b9c__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img2" fitHeight="200.0" fitWidth="150.0" layoutX="186.0" layoutY="6.0" onMouseClicked="#click2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/290dfb95ff38b0be073b753736ab45f28aa541c6__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img1" fitHeight="200.0" fitWidth="150.0" layoutX="41.0" layoutY="6.0" onMouseClicked="#click1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/3cdfe46be1b901417dcdbc540f68192a5311b311__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img6" fitHeight="200.0" fitWidth="150.0" layoutX="184.0" layoutY="220.0" onMouseClicked="#click6" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/3d0c5f15f82d30821baabe18cce790d0c9b17ac1__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img3" fitHeight="200.0" fitWidth="150.0" layoutX="327.0" layoutY="6.0" onMouseClicked="#click3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/45b67b02181cee4dd728ad602c6ecc9a9b137fbc__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img8" fitHeight="200.0" fitWidth="150.0" layoutX="468.0" layoutY="220.0" onMouseClicked="#click8" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/14ece54b34df7766ad455acc93485b05f82142f7__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="42.0" fitWidth="53.0" layoutX="14.0" layoutY="505.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/back.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="24.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fantasy Books">
+                     <font>
+                        <Font name="System Italic" size="32.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

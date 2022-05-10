@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="home" prefHeight="562.0" prefWidth="678.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Home">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="562.0" prefWidth="678.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1244.0" prefWidth="686.0" style="-fx-background-color: #000;">
+               <children>
+                  <TextField fx:id="textfield" layoutX="14.0" layoutY="14.0" onKeyTyped="#field" prefHeight="33.0" prefWidth="533.0" style="-fx-background-color: #e8eaf1;" />
+                  <ImageView fitHeight="43.0" fitWidth="41.0" layoutX="506.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/google-web-search.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="t6" fill="WHITE" layoutX="13.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top Books">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Pane fx:id="t1" layoutX="13.0" layoutY="95.0" prefHeight="200.0" prefWidth="636.0">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="200.0" fitWidth="150.0" layoutX="41.0" onMouseClicked="#top1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/9780575081406.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img11" fitHeight="200.0" fitWidth="150.0" layoutX="184.0" onMouseClicked="#top2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/a55787b4abfbc3ce9d70e5af4ee6937c15e728e6__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img12" fitHeight="200.0" fitWidth="150.0" layoutX="327.0" onMouseClicked="#top3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/0e5dfc58c3fcd2cfd79d3e9f1e34a042.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img13" fitHeight="200.0" fitWidth="150.0" layoutX="468.0" onMouseClicked="#top4" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/d7fbf425adee862225c9cc610c22afd5.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="469.0" onMouseClicked="#fantasy4" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/6e04107cbc4aa8ba9f562b275183c5b47aca7f3a__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Text fx:id="t7" fill="WHITE" layoutX="14.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Romance Books">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Pane fx:id="section1" layoutX="13.0" layoutY="353.0" prefHeight="258.0" prefWidth="636.0" style="-fx-background-color: #000;">
+                     <children>
+                        <ImageView fx:id="romance1" fitHeight="200.0" fitWidth="150.0" layoutX="40.0" onMouseClicked="#romance1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/268a5a55fc90fb09367310c0945c977c(1).jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="romance2" fitHeight="200.0" fitWidth="130.0" layoutX="184.0" onMouseClicked="#romance2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/a937d5c4ed5031d133c93fe0b2fee1b37174a505__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img121" fitHeight="200.0" fitWidth="150.0" layoutX="327.0" onMouseClicked="#romance3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/8ac80c8ac5f3ab62e714241257f9898aacddac14__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fx:id="img131" fitHeight="200.0" fitWidth="150.0" layoutX="468.0" onMouseClicked="#romance4" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/98c79697e854704d6c24169357d8d25e.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <Button layoutX="550.0" layoutY="218.0" mnemonicParsing="false" onAction="#go1" prefHeight="31.0" prefWidth="64.0" style="-fx-background-color: #d67e26;" text="Go">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Text fx:id="t4" fill="WHITE" layoutX="14.0" layoutY="641.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fantasy Books">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Pane fx:id="section2" layoutX="13.0" layoutY="659.0" prefHeight="258.0" prefWidth="636.0" style="-fx-background-color: #000;">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="41.0" onMouseClicked="#fantasy1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/3cdfe46be1b901417dcdbc540f68192a5311b311__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="184.0" onMouseClicked="#fantasy2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/290dfb95ff38b0be073b753736ab45f28aa541c6__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="327.0" onMouseClicked="#fantasy3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/45b67b02181cee4dd728ad602c6ecc9a9b137fbc__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="468.0" onMouseClicked="#fantasy4" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/6e04107cbc4aa8ba9f562b275183c5b47aca7f3a__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <Button layoutX="548.0" layoutY="221.0" mnemonicParsing="false" onAction="#go2" prefHeight="31.0" prefWidth="64.0" style="-fx-background-color: #d67e26;" text="Go">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Text fx:id="t5" fill="WHITE" layoutX="14.0" layoutY="949.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detective and Mystery Books">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <fx:include fx:id="section3" layoutX="13.0" layoutY="964.0" source="section3.fxml" />
+                  <Button layoutX="561.0" layoutY="14.0" mnemonicParsing="false" onAction="#signout" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #d67e26;" text="Sign Out">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Pane fx:id="section3" layoutX="13.0" layoutY="964.0" prefHeight="258.0" prefWidth="636.0" style="-fx-background-color: #000;">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="41.0" onMouseClicked="#d_and_m1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/arif-riyanto-UD9nADGj2mc-unsplash.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="184.0" onMouseClicked="#d_and_m2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/9780575081406.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="327.0" onMouseClicked="#d_and_m3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/51glJgVC1IL.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="468.0" onMouseClicked="#d_and_m4" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/8ac80c8ac5f3ab62e714241257f9898aacddac14__300x0.jpg" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <Button layoutX="552.0" layoutY="220.0" mnemonicParsing="false" onAction="#go3" prefHeight="31.0" prefWidth="64.0" style="-fx-background-color: #d67e26;" text="Go">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

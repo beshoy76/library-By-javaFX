@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="signup" prefHeight="562.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Signup">
+    <children>
+        <ImageView fitHeight="570.0" fitWidth="354.0" layoutX="324.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/books-are-uniquely-portable-magic-stephen-king-quote-min-622x622.jpg" />
+            </image></ImageView>
+        <Pane prefHeight="562.0" prefWidth="324.0" style="-fx-background-color: #191919;">
+            <children>
+                <Label layoutX="71.0" layoutY="20.0" text="Where books live" textFill="#e49855">
+                    <font>
+                        <Font size="24.0" />
+                    </font></Label>
+                <Label layoutX="24.0" layoutY="70.0" text="User Name" textFill="WHITE" />
+                <Label layoutX="24.0" layoutY="132.0" text="E-mail" textFill="WHITE" />
+                <Label layoutX="26.0" layoutY="317.0" text="Phone Number" textFill="WHITE" />
+                <Label layoutX="27.0" layoutY="377.0" text="Birth Date" textFill="WHITE" />
+                <Label layoutX="22.0" layoutY="195.0" text="Password" textFill="WHITE" />
+                <Label layoutX="24.0" layoutY="257.0" text="Confirm Password" textFill="WHITE" />
+                <TextField fx:id="userName" layoutX="24.0" layoutY="87.0" prefHeight="35.0" prefWidth="276.0" promptText="User Name" />
+                <TextField fx:id="Email" layoutX="24.0" layoutY="149.0" prefHeight="35.0" prefWidth="276.0" promptText="email@mail.com" />
+                <PasswordField fx:id="Pass" layoutX="23.0" layoutY="212.0" prefHeight="35.0" prefWidth="276.0" promptText="****" />
+                <PasswordField fx:id="Confirm" layoutX="23.0" layoutY="274.0" prefHeight="35.0" prefWidth="276.0" promptText="****" />
+                <TextField fx:id="Phone" layoutX="24.0" layoutY="334.0" prefHeight="35.0" prefWidth="276.0" promptText="01012345678" />
+                <DatePicker fx:id="Birth" layoutX="23.0" layoutY="394.0" prefHeight="35.0" prefWidth="276.0" promptText="9/4/2020" />
+                <Label layoutX="27.0" layoutY="453.0" text="Gender" textFill="WHITE" />
+                <RadioButton layoutX="120.0" layoutY="453.0" mnemonicParsing="false" text="Male" textFill="WHITE">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="gender" />
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton layoutX="214.0" layoutY="453.0" mnemonicParsing="false" text="Female" textFill="WHITE" toggleGroup="$gender" />
+                <Label layoutX="90.0" layoutY="528.0" text="Have an account?" textFill="#e49855" />
+                <Hyperlink layoutX="184.0" layoutY="525.0" onAction="#signin" text="Sign in" textFill="#e49855" />
+                <Button fx:id="start" layoutX="23.0" layoutY="491.0" mnemonicParsing="false" onAction="#start" prefHeight="35.0" prefWidth="276.0" style="-fx-background-color: #d67e26;" text="Start Reading">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+            <Text fx:id="txt1" fill="RED" layoutX="173.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="txt2" fill="RED" layoutX="171.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="txt3" fill="RED" layoutX="156.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="txt4" fill="RED" layoutX="156.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="txt5" fill="RED" layoutX="127.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="txt6" fill="RED" layoutX="183.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="txt7" fill="RED" layoutX="27.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
